@@ -2,63 +2,106 @@
     "users": [
       {
         "id": 1,
-        "name": "Gertrudis Tatterton",
-        "age": 18,
-        "email": "gtatterton0@ehow.com"
+        "username": "Gertrudis Tatterton",
+        "avatar": "https://e7.pngegg.com/pngimages/348/800/png-clipart-man-wearing-blue-shirt-illustration-computer-icons-avatar-user-login-avatar-blue-child.png",
+        "email": "gtatterton0@ehow.com",
+        "password": "hello"
       },
       {
         "id": 2,
         "name": "Gail Newbatt",
-        "age": 53,
-        "email": "gnewbatt1@un.org"
+        "avatar": "https://w7.pngwing.com/pngs/178/419/png-transparent-man-illustration-computer-icons-avatar-login-user-avatar-child-web-design-face.png",
+        "email": "gnewbatt1@un.org",
+        "password":"gail"
       },
       {
         "id": 3,
-        "name": "Walliw Wilstead",
-        "age": 49,
-        "email": "wwilstead2@tripadvisor.com"
+        "name": "Sachin Kohli",
+        "avatar": "https://e7.pngegg.com/pngimages/154/139/png-clipart-man-computer-icons-avatar-man-child-face.png",
+        "email": "sachin@gmail.com",
+        "password":"sachin"
+      }
+    ],
+
+    "forum": [
+      {
+        "id": 1,
+        "avatar":"https://e7.pngegg.com/pngimages/348/800/png-clipart-man-wearing-blue-shirt-illustration-computer-icons-avatar-user-login-avatar-blue-child.png",
+        "username": "Gertrudis Tatterton",
+        "question_title":"How to Sort an array in Javascript ?",
+        "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+        "language": "JAVASCRIPT",
+        "no_of_upvotes": 10,
+        "no_of_answers": 3,
+        "posted_date":"2023-05-30",
+        "answers": [
+          { "id":1,
+            "userAvatar": "user_avatar2.png",
+            "username": "JaneSmith456",
+            "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+            "postedDate": "2023-05-31"
+          },
+          {
+            "id":2,
+            "userAvatar": "user_avatar3.png",
+            "username": "SamJohnson789",
+            "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+            "postedDate": "2023-06-01"
+          },
+          {
+            "id":3,
+            "userAvatar": "user_avatar4.png",
+            "username": "EmilyBrownXYZ",
+            "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+            "postedDate": "2023-06-01"
+          }
+        ]
       },
       {
-        "id": 4,
-        "name": "Abran Proback",
-        "age": 29,
-        "email": "aproback3@theglobeandmail.com"
+        "id": 2,
+        "avatar":"https://e7.pngegg.com/pngimages/154/139/png-clipart-man-computer-icons-avatar-man-child-face.png",
+        "username": "Sachin Kohli",
+        "question_title":"How does closures work in Javascript ?",
+        "questionDescription": "I'm struggling with concept closures in JavaScript. Can someone please provide guidance?",
+        "language": "JAVASCRIPT",
+        "no_of_upvotes": 20,
+        "no_of_answers": 2,
+        "posted_date":"2023-07-23",
+        "answers": [
+          { "id":1,
+            "userAvatar": "user_avatar2.png",
+            "username": "JaneSmith456",
+            "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+            "postedDate": "2023-05-31"
+          },
+          {
+            "id":2,
+            "userAvatar": "user_avatar3.png",
+            "username": "SamJohnson789",
+            "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+            "postedDate": "2023-06-01"
+          }
+        ]
       },
       {
-        "id": 5,
-        "name": "Roda Chappelow",
-        "age": 31,
-        "email": "rchappelow4@oaic.gov.au"
-      },
-      {
-        "id": 6,
-        "name": "Karney Wylie",
-        "age": 22,
-        "email": "kwylie5@miitbeian.gov.cn"
-      },
-      {
-        "id": 7,
-        "name": "Cammi Pimbley",
-        "age": 63,
-        "email": "cpimbley6@nyu.edu"
-      },
-      {
-        "id": 8,
-        "name": "Gavra Manning",
-        "age": 43,
-        "email": "gmanning7@lycos.com"
-      },
-      {
-        "id": 9,
-        "name": "Zachary Seward",
-        "age": 45,
-        "email": "zseward8@oracle.com"
-      },
-      {
-        "id": 10,
-        "name": "Chucho Norssister",
-        "age": 20,
-        "email": "cnorssister9@mayoclinic.com"
+        "id": 3,
+        "avatar":"https://w7.pngwing.com/pngs/178/419/png-transparent-man-illustration-computer-icons-avatar-login-user-avatar-child-web-design-face.png",
+        "username": "Gail Newbatt",
+        "question_title":"What are decorators in Python ?",
+        "questionDescription": "I'm struggling with decorators in Python. Can someone please provide guidance?",
+        "language": "PYTHON",
+        "no_of_upvotes": 15,
+        "no_of_answers": 1,
+        "posted_date":"2023-04-24",
+        "answers": [
+          { "id":1,
+            "userAvatar": "user_avatar2.png",
+            "username": "JaneSmith456",
+            "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+            "postedDate": "2023-05-31"
+          }
+        ]
       }
     ]
+    
   }
