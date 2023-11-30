@@ -1,0 +1,23 @@
+{
+  "name": "react-mock-api",
+  "version": "1.0.0",
+  "description": "mock server app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suriyasingaravel/react-mock-api.git"
+  },
+  "keywords": [],
+  "author": "suriya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suriyasingaravel/react-mock-api/issues"
+  },
+  "homepage": "https://github.com/suriyasingaravel/react-mock-api#readme",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
